@@ -1,0 +1,6 @@
+Crie um novo arquivo chamado
+Conte o número de linhas
+nomes de países ao final do arquivo
+phrases2.txt e countries.txt
+india
+portugal
