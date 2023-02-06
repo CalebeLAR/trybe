@@ -1,0 +1,31 @@
+docker container run -d --name monitorando_processos sleep 900s
+docker top monitorando_processos
+docker ps -a
+docker exec -it monitorando_processos sh
+/# ls -a
+/# top
+
+Mem: 5115496K used, 815392K free, 71952K shrd, 352132K buff, 2141100K cached
+CPU:   0% usr   0% sys   0% nic  99% idle   0% io   0% irq   0% sirq
+Load average: 0.33 0.43 0.43 2/1144 15
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+    7     0 root     S     1672   0%   8   0% sh
+   15     7 root     R     1600   0%   6   0% top
+    1     0 root     S     1588   0%   1   0% sleep 900s
+/ # exit
+
+docker stop -t 0 meu-container
+
+Recapitulando 🧠
+**Vamos entender passo a passo o que aconteceu nos comandos anteriores:
+
+1 - Criamos um novo container a partir da imagem alpine, com a tag 3.14:
+
+No modo detached (-d);
+Solicitando sua remoção após finalização (--rm).
+Atribuindo o nome de meu-container (--name);
+Substituindo o comando padrão para um comando customizado (sleep 300);
+2 - Verificamos a lista de processos do container usando docker top:
+
+A saída do comando mostra que existe apenas um processo em execução, que é o processo que especificamos.
+3 - Forçamos a parada do container usando o comando docker stop.

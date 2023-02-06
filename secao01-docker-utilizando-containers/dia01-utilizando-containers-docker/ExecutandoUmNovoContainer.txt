@@ -1,0 +1,7 @@
+docker container run alpine:3.14 echo Hello World
+docker container ls -a
+docker container run --name meu-contaner alpine:3.14 echo hello World novamente
+docker ps -a
+docker rm meu-container
+docker rm great_hodgkin
+docker ps -a

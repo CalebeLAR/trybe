@@ -1,0 +1,82 @@
+🚀 No Docker Hub, utilizando a caixa de busca ("Search for great content"), busque pela imagem da Distribuição Linux Debian.
+
+[feito]
+
+🚀 Uma vez que encontrar a imagem oficial, acesse-a (clicando em seu card) e verifique na página de detalhes. Confira se existe algum comando para baixar a imagem localmente sem ter que criar um contêiner para isso.
+
+[feito]
+
+🚀 Baixe a imagem utilizando a tag: stable-slim, que é uma versão reduzida da distribuição.
+
+[docker pull debian:stable-slim]
+
+🚀 Após baixar a imagem para seu computador local, crie e execute um contêiner no modo interativo utilizando essa imagem como referência — não esqueça referenciar a tag.
+
+[docker container run -it --name calebe-debian debian:stable-slim]
+
+🚀 No terminal, você deve conseguir rodar o comando cat /etc/*-release, que vai retornar os dados da distribuição Debian que está sendo rodada dentro do contêiner.
+🚀 Encerre o terminal.
+
+[
+root@f5010963e262:/# cat /etc/*-release                                              
+PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
+NAME="Debian GNU/Linux"
+VERSION_ID="11"
+VERSION="11 (bullseye)"
+VERSION_CODENAME=bullseye
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+root@f5010963e262:/# 
+]
+
+
+🚀 Verifique na sua lista de contêiners qual contêiner se refere ao exercício que acabou de praticar.
+
+[calbe-debian]
+
+🚀 Inicie o mesmo contêiner novamente, sem criar outro. Valide se ele está ativo na lista de contêiners.
+
+[ 
+docker container start calebe-debian
+docker container ps -a
+CONTAINER ID   IMAGE                COMMAND   CREATED         STATUS          PORTS     NAMES
+f5010963e262   debian:stable-slim   "bash"    2 minutes ago   --(Up)-- 20 seconds             calebe-debia
+]
+
+🚀 Retome o contêiner que foi criado anteriormente neste exercício.
+
+[docker container attach calebe-debian]
+
+🚀 Rode o comando cat /etc/debian_version que deve retornar a versão atual do sistema do contêiner.
+[
+root@f5010963e262:/# cat /etc/debian_version              
+11.6
+]
+🚀 Encerre o terminal.
+[/# exit]
+🚀 Remova somente o contêiner criado para esse exercício.
+[
+docker container ps -a
+CONTAINER ID   IMAGE                COMMAND   CREATED         STATUS                      PORTS     NAMES
+f5010963e262   debian:stable-slim   "bash"    7 minutes ago   Exited (0) 33 seconds ago             calebe-debian
+docker rm calebe-debian
+]
+[BÔNUS] Crie e rode de modo interativo em modo ‘Cleanup’, a imagem andrius/ascii-patrol.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[BÔNUS] **Encerre o contêiner utilizando os botões [ctrl] + [c].

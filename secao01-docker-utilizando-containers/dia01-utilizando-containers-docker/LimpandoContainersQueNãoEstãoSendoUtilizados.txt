@@ -1,0 +1,5 @@
+docker container run alpine:3.14
+docker container run alpine:3.14
+docker container run alpine:3.14
+docker ps -a
+docker container prune

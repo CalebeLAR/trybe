@@ -1,0 +1,39 @@
+docker container run --rm -d --name testando_teminal_sleep alpine:3.14 sleep 600s
+docker ps - a
+docker exec -it testando_teminal_sleep sh
+/# ls - a
+/# touch helloWorld.txt
+/# ps aux
+/# exit
+docker stop -t 0 testando_teminal_sleep
+docker ps -a
+
+Recapitulando 🧠
+Vamos entender passo a passo o que aconteceu nos comandos anteriores:
+
+1 - Criamos um novo container a partir da imagem alpine, com a tag 3.14:
+
+No modo detached (-d);
+Atribuindo o nome de meu-container (--name);
+Solicitando sua remoção após finalização (--rm);
+Substituindo o comando padrão para um comando customizado (sleep 300).
+2 - Verificamos a lista de containers usando docker ps, apenas para validar o sucesso do comando anterior:
+
+Executamos o comando docker exec -it meu-container sh;
+
+Passando a flag -t e solicitando a criação de uma sessão de terminal;
+Passando a flag -i, necessária para que a sessão seja interativa;
+O comando a ser executado será sh, que é um programa de terminal linux.
+3 - Já dentro do container, executamos um comando ps aux:
+
+Este comando lista todos os processos em execução no momento;
+Veja que legal: Dentro do container, os únicos processos em execução são:
+sleep 300, que especificamos na inicialização do container;
+sh, que especificamos na hora de abrir a sessão interativa;
+ps aux, que acabamos de executar para obter esta lista;
+É só isso! Dentro do container, não existe mais nenhum outro processo em execução! Aqui temos a confirmação do isolamento dos containers do resto dos processos da nossa máquina!
+4 - Usamos o comando exit para sair do terminal do container;
+
+5 - Forçamos a parada de execução do container usando o comando docker stop;
+
+6 - Validamos que não há nenhum container restante na máquina usando docker ps -a.

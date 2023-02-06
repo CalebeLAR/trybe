@@ -1,0 +1,24 @@
+docker container run -d --name container_data date
+docker container run -d --name container_data alpine:3.14 date
+docker ps -a
+docker logs container_data /home/usuario Tue Jan 17 19:51:14 UTC 2023
+docker rm container_data
+
+Recapitulando 🧠
+Vamos entender passo a passo o que aconteceu nos comandos anteriores:
+
+1 - Criamos um novo container a partir da imagem alpine, com a tag 3.14:
+
+No modo detached (-d);
+Atribuindo o nome de meu-container (--name);
+Substituindo o comando padrão para um comando customizado (date).
+2 - Verificamos a lista de containers usando docker ps, apenas para validar o sucesso do comando anterior:
+
+A saída do comando mostra que o container já parou sua execução;
+Porém, ainda podemos ver os logs de um container parado sem problemas.
+3 - Executamos o comando docker logs meu-container:
+
+Não especificamos nenhuma flag.
+4 - É exibido na tela a mensagem Tue Apr 26 13:29:32 UTC 2022, que é a saída do comando date, feito dentro do container.
+
+5 - Após isso, removemos o container usando o comando docker rm.

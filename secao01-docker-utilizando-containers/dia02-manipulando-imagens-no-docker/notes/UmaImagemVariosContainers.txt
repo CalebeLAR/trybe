@@ -1,0 +1,8 @@
+docker container run hello-world:latest 
+docker ps -a
+docker container run hello-world:latest
+docker rmi 5c8936e57a38
+docker rmi alpine:3.14
+docker container prune 
+doker rmi hello-world
+

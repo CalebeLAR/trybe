@@ -1,0 +1,52 @@
+touch ConstruindoNossaNovaImagem.txt
+docker build -t site-hugo .
+  Successfully built cfb6923dc772
+  Successfully tagged site-hugo:latest
+
+:Executando um novo container com nossa imagem:
+
+docker run -d -p 1234:80 --name meu-server-minecraft site-hugo
+
+http://localhost:1234
+docker ps -a
+  CONTAINER ID   IMAGE       COMMAND                  CREATED              STATUS              PORTS                                   NAMES
+702c77d83e68   site-hugo   "nginx -g 'daemon of…"   About a minute ago   Up About a minute   0.0.0.0:1234->80/tcp, :::1234->80/tcp   meu-server-minecraft
+
+
+docker stop meu-server-minecraft
+docker rm meu-server-minecraft
+docker ps
+  CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+::::Construção em múltiplos estágios::::
+
+docker build -t mult-estagio .
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

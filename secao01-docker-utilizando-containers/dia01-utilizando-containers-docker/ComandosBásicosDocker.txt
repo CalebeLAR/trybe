@@ -1,0 +1,6 @@
+docker --help
+docker images
+docker containers
+docker containers ls
+docker ps
+docker container rm container-mysql

@@ -1,0 +1,2 @@
+docker container run --rm alpine:3.14 echo usado o metodo auto remover
+docker ps -a

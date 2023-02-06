@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  container1: 
+    image: nginx
+    volumes:
+      - ./public_html:/usr/share/nginx/html
+    ports: 
+      - 8000:80

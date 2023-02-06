@@ -1,0 +1,73 @@
+➜  buildIndexHTML cat > Dockerfile
+FROM httpd:2.4
+COPY index.html /usr/local/apache2/htdocs/
+EXPOSE 80
+CMD ["httpd-foreground"]^C
+➜  buildIndexHTML cat Dockerfile 
+FROM httpd:2.4
+COPY index.html /usr/local/apache2/htdocs/
+EXPOSE 80
+➜  buildIndexHTML cat > Dockerfile 
+FROM httpd:2.4
+COPY index.html /usr/local/apache2/htdocs/
+EXPOSE 80
+CMD ["httpd-foreground"]
+^C
+➜  buildIndexHTML cat Dockerfile 
+FROM httpd:2.4
+COPY index.html /usr/local/apache2/htdocs/
+EXPOSE 80
+CMD ["httpd-foreground"]
+➜  buildIndexHTML docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+➜  buildIndexHTML docker build -t servidor-web .
+Sending build context to Docker daemon  3.072kB
+Step 1/4 : FROM httpd:2.4
+2.4: Pulling from library/httpd
+8740c948ffd4: Pull complete 
+70698c657149: Pull complete 
+00df85967755: Pull complete 
+ec2ee6bdcb58: Pull complete 
+8b4456c99d44: Pull complete 
+Digest: sha256:87a012bf99bf5e3e0f628ac1f69abbeab534282857fba3a359ca3a3f4a02429a
+Status: Downloaded newer image for httpd:2.4
+ ---> 6e794a483258
+Step 2/4 : COPY index.html /usr/local/apache2/htdocs/
+ ---> c27bb9b594c8
+Step 3/4 : EXPOSE 80
+ ---> Running in 741219ba253c
+Removing intermediate container 741219ba253c
+ ---> e30f33dafc0a
+Step 4/4 : CMD ["httpd-foreground"]
+ ---> Running in 62405f53a6f7
+Removing intermediate container 62405f53a6f7
+ ---> 4bfae9846898
+Successfully built 4bfae9846898
+Successfully tagged servidor-web:latest
+➜  buildIndexHTML docker container run --rm -d -p 1234:80 --name meu-container meu-servidor-web 
+Unable to find image 'meu-servidor-web:latest' locally
+docker: Error response from daemon: pull access denied for meu-servidor-web, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+➜  buildIndexHTML docker container run --rm -d -p 1234:80 --name meu-container servidor-web 
+f9f7b1ad789250bb88e8688b56089d9f3b4841168bc47188ca4c41a649a8424f
+➜  buildIndexHTML docker ps -a                                                             
+CONTAINER ID   IMAGE          COMMAND              CREATED          STATUS          PORTS                                   NAMES
+f9f7b1ad7892   servidor-web   "httpd-foreground"   17 seconds ago   Up 16 seconds   0.0.0.0:1234->80/tcp, :::1234->80/tcp   meu-container
+➜  buildIndexHTML docker run --rm -d -p 1234:80 --name outo-servidor servidor-web:latest 
+d08ca74668fe71184f6ab0009a0a525cb9f0b5a7d6510402e8dbc4d6cc23bedc
+docker: Error response from daemon: driver failed programming external connectivity on endpoint outo-servidor (32e193ab88c19b5215f74d241a033744ce4fcdf59bc0fdf44fcaa04a89ac541b): Bind for 0.0.0.0:1234 failed: port is already allocated.
+➜  buildIndexHTML docker run --rm -d -p 1235:80 --name outo-servidor servidor-web:latest
+6dc7cf37474d4d6e83f1c4a9c3ff2dd390026838d7d06c49573ba0fd0f7aaa74
+➜  buildIndexHTML docker ps -a
+CONTAINER ID   IMAGE                 COMMAND              CREATED              STATUS              PORTS                                   NAMES
+6dc7cf37474d   servidor-web:latest   "httpd-foreground"   15 seconds ago       Up 14 seconds       0.0.0.0:1235->80/tcp, :::1235->80/tcp   outo-servidor
+f9f7b1ad7892   servidor-web          "httpd-foreground"   About a minute ago   Up About a minute   0.0.0.0:1234->80/tcp, :::1234->80/tcp   meu-container
+➜  buildIndexHTML touch UsandoImagemPraRodarUmServidor.txt
+➜  buildIndexHTML cd ..
+➜  Dia 02: Manipulando Imagens no Docker ls 
+buildImages  buildIndexHTML  CriandoNossaPrimeiraImagemDocker.txt  notes
+➜  Dia 02: Manipulando Imagens no Docker touch UsandoImagemPraRodarUmServidor.txt
+➜  Dia 02: Manipulando Imagens no Docker cd notes 
+➜  notes touch UsandoImagemPraRodarUmServidor.txt
+➜  notes 
+

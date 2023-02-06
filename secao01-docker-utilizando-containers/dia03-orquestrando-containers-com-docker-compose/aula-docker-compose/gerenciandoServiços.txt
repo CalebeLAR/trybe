@@ -1,0 +1,25 @@
+:::Gerenciando nossos Serviços:::
+
+docker-compose up -d
+
+:::Verificando o status dos serviços:::
+
+docker-compose ps
+
+:::Reconstruindo a Imagem Docker:::
+
+docker-compose up -d --build
+
+:::Descendo todos os serviços:::
+
+docker-compose down
+
+::: Subindo serviços específicos :::
+
+docker-compose up backend
+
+:::Visualizando os logs dos serviços:::
+
+docker-compose logs backend
+docker-compose logs --tail 5 database
+docker-compose down

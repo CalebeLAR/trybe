@@ -1,0 +1,4 @@
+docker container ps -a
+docker container run --rm -d --name modo_sleep alpine:3.14 sleep 300s
+
+docker stop modo_sleep

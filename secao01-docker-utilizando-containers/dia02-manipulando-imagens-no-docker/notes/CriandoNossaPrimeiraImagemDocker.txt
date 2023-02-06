@@ -1,0 +1,14 @@
+docker system prune -af
+touch Dockerfile
+echo FROM alpine:3.14 >> Dockerfile
+echo 'CMD ["echo", "Eu sou uma pessoa estudante da Trybe"]' >> Dockerfile
+echo CMD echo "olá mundo" >> Dockerfile
+docker build -t primeira-imagem .
+ Successfully built 7d9eb92aee9b
+ Successfully tagged primeira-imagem:latest
+docker images
+  REPOSITORY        TAG       IMAGE ID       CREATED          SIZE
+  primeira-imagem   latest    7d9eb92aee9b   39 seconds ago  5.61MB
+  alpine            3.14      dd53f409bf0b   5 months ago     5.61MB
+docker container run primeira-imagem:latest
+  olá mundo

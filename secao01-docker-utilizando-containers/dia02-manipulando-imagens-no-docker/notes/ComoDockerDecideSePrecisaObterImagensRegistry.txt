@@ -1,0 +1,2 @@
+docker pull apline:3.14
+docker images

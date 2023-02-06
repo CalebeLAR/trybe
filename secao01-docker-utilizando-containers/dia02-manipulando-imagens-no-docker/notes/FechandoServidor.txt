@@ -1,0 +1,39 @@
+➜  buildIndexHTML docker ps -a
+CONTAINER ID   IMAGE                 COMMAND              CREATED         STATUS         PORTS                                   NAMES
+6dc7cf37474d   servidor-web:latest   "httpd-foreground"   7 minutes ago   Up 7 minutes   0.0.0.0:1235->80/tcp, :::1235->80/tcp   outo-servidor
+f9f7b1ad7892   servidor-web          "httpd-foreground"   8 minutes ago   Up 8 minutes   0.0.0.0:1234->80/tcp, :::1234->80/tcp   meu-container
+➜  buildIndexHTML docker container stop outo-servidor 
+outo-servidor
+➜  buildIndexHTML docker ps -a                       
+CONTAINER ID   IMAGE          COMMAND              CREATED         STATUS         PORTS                                   NAMES
+f9f7b1ad7892   servidor-web   "httpd-foreground"   9 minutes ago   Up 9 minutes   0.0.0.0:1234->80/tcp, :::1234->80/tcp   meu-container
+➜  buildIndexHTML docker container stop meu-container 
+meu-container
+➜  buildIndexHTML docker ps -a                       
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+➜  buildIndexHTML docker images   
+REPOSITORY     TAG       IMAGE ID       CREATED          SIZE
+servidor-web   latest    4bfae9846898   13 minutes ago   145MB
+httpd          2.4       6e794a483258   15 hours ago     145MB
+➜  buildIndexHTML doker system prune -af
+zsh: command not found: doker
+➜  buildIndexHTML docker system prune -af
+Deleted Images:
+untagged: httpd:2.4
+untagged: httpd@sha256:87a012bf99bf5e3e0f628ac1f69abbeab534282857fba3a359ca3a3f4a02429a
+untagged: servidor-web:latest
+deleted: sha256:4bfae9846898dc3861c44f7193fab19e3a64eac281aca8ead60eefe01da7838a
+deleted: sha256:e30f33dafc0ac8a705f46591d78c377e8be51f16852928c7b329b0309a597189
+deleted: sha256:c27bb9b594c8cd864bc9f1fef54b557cbcb8ff078fe95150e339a3880b25f6a8
+deleted: sha256:ddc265ca48acad4ee3d39b1a04e8dc13cc0cd2e72dc1c01a3180e28c6ec7ab94
+deleted: sha256:6e794a4832588ca05865700da59a3d333e7daaaf0544619e7f326eed7e72c903
+deleted: sha256:8aa731fec5f9fa7e35c83b39747dd4800e11ece5a4a356039212687314c1249b
+deleted: sha256:f16f8ec324bb7acbe8bb034aa25d79cf4d782ef53a7c70446fb0994b251769b3
+deleted: sha256:d70badffc2c173b5781391ad9196ec216db33ac628962a68d6c6e674dbedab5f
+deleted: sha256:f3f967e53184f3542045e44fb38fc1ec70a31a0dafefb2ec763bf9f704f0e1ce
+deleted: sha256:67a4178b7d47beb6a1f697a593bd0c6841c67eb0da00f2badefb05fd30671490
+
+Total reclaimed space: 145.1MB
+➜  buildIndexHTML 
+➜  buildIndexHTML 
+
