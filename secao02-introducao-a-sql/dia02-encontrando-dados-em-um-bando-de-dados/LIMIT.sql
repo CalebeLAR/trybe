@@ -1,0 +1,1 @@
+SELECT * FROM sakila.rental LIMIT 142;

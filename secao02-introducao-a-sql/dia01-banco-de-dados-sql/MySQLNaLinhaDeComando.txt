@@ -1,0 +1,59 @@
+1-Entre no banco de dados mysql.
+  [USE mysql]
+2-Visualize todas as tabelas desse banco.
+  [SHOW TABLES;]
+  +---------------------------+
+| Tables_in_mysql           |
++---------------------------+
+| columns_priv              |
+| db                        |
+| engine_cost               |
+| event                     |
+| func                      |
+| general_log               |
+| gtid_executed             |
+| help_category             |
+| help_keyword              |
+| help_relation             |
+| help_topic                |
+| innodb_index_stats        |
+| innodb_table_stats        |
+| ndb_binlog_index          |
+| plugin                    |
+| proc                      |
+| procs_priv                |
+| proxies_priv              |
+| server_cost               |
+| servers                   |
+| slave_master_info         |
+| slave_relay_log_info      |
+| slave_worker_info         |
+| slow_log                  |
+| tables_priv               |
+| time_zone                 |
+| time_zone_leap_second     |
+| time_zone_name            |
+| time_zone_transition      |
+| time_zone_transition_type |
+| user                      |
++---------------------------+
+3-Visualize a estrutura de pelo menos 10 tabelas diferentes e tente entender o
+ [DESCRIBE user]
+ [DESCRIBE columns_priv ]
+ [DESCRIBE db ]
+ [DESCRIBE engine_cost]
+4-tipo de estrutura que costuma ser utilizada.
+ todas tem os colunas com 
+  Field | Type | Null | Key | Default | Extra	
+5-Crie um novo banco de dados com o seu nome e depois entre nele!
+ [CREATE DATABASE calebe;]
+ +--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| calebe             |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+
