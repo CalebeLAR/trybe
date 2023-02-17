@@ -1,0 +1,19 @@
+p, h1 {
+    text-align: center;   
+}
+  
+li:hover {
+    font-family: sans-serif, Helvetica;
+    font-size: 20px;
+    background-color: blueviolet;
+}
+li:active {
+    font-family: sans-serif, Helvetica;
+    font-size: 20px;
+    color: blanchedalmond;
+    
+}
+
+li {
+    list-style: none;
+  }

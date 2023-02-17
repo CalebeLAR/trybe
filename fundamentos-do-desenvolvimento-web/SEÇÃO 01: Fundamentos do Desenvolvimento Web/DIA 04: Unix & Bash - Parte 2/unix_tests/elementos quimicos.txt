@@ -1,0 +1,120 @@
+89	Ac	Actínio	Actinium	Raio, do grego aktínos	[227][nota 1]	 	7
+47	Ag	Prata	Argentum	Prata, do grego argyros	107.8682(2)[nota 2]	11	5
+13	Al	Alumínio	Alumen	Sal amargo, do latim alumen, ver alúmen	27,0	13	3
+95	Am	Amerício	Americium	Américas, continente.	[243][nota 1]	 	7
+18	Ar	Argônio ou Árgon	Argon	Inerte, lento, do grego argos	39.948(1)[nota 2][nota 3]	18	3
+33	As	Arsénio	Arsenicum	Masculino, do grego arsenikos	74.92160(2)	15	4
+85	At	Ástato	Astatum	Instável, do grego astatos	[210][nota 1]	17	6
+79	Au	Ouro	Aurum	Dourado, do latim aureus	196.966569(4)	11	6
+5	B	Boro	Borium	Bórax, do árabe buraq	10.811(7)[nota 2][nota 3][nota 4]	13	2
+56	Ba	Bário	Barium	Densidade, pesado, do grego barys	137.327(7)	2	6
+4	Be	Berílio	Beryllium	Berilo, azul-esverdeada, do grego beryllos	9.012182(3)	2	2
+107	Bh	Bóhrio	Bohrium	Niels Bohr	[264][nota 1]	7	7
+83	Bi	Bismuto	Bismuthum	Massa branca, corrupção do alemão Weisse+masse	208.98040(1)	15	6
+97	Bk	Berquélio	Berkelium	Berkeley, Califórnia	[247][nota 1]	 	7
+35	Br	Bromo	Bromum	Mau cheiro, fedido, do grego broma	79.904(1)	17	4
+6	C	Carbono	Carbonium	Carvão, do latim carbo	12.0107(8)[nota 2][nota 3]	14	2
+20	Ca	Cálcio	Calcium	Cal, do latim calx	40.078(4)[nota 2]	2	4
+48	Cd	Cádmio	Cadmium	Solo, corrupção do grego kadmia[carece de fontes]	112.411(8)[nota 2]	12	5
+58	Ce	Cério	Cerium	Ceres, planeta-anão e deus romano	140.116(1)[nota 2]	 	6
+98	Cf	Califórnio	Californium	Califórnia, estado norte-americano	[251][nota 1]	 	7
+17	Cl	Cloro	Clorum	Amarelo esverdeado, do grego chloros	35.453(2)[nota 2][nota 3][nota 4]	17	3
+96	Cm	Cúrio	Curium	Pierre e Marie Curie	[247][nota 1]	 	7
+112	Cn	Copernício	Copernicium	Nicolau Copérnico	[277][nota 1]	12	7
+27	Co	Cobalto	Cobaltum	Duende, gnomo, corrupção do alemão Kobold	58.933195(5)	9	4
+24	Cr	Cromo ou Crómio	Chromium	Cor, do grego chroma	51.9961(6)	6	4
+55	Cs	Césio	Caesium	Azul-celeste, do latim caesius	132.9054519(2)	1	6
+29	Cu	Cobre	Cuprum	Chipre, do latim cyprium	63.546(3)[nota 3]	11	4
+105	Db	Dúbnio	Dubnium	Dubna, Rússia	[262][nota 1]	5	7
+110	Ds	Darmstácio	Darmstadtium	Darmstadt, Alemanha	[271][nota 1]	10	7
+66	Dy	Disprósio	Dysprosium	Inacessível, do grego dysprositos	162.500(1)[nota 2]	 	6
+68	Er	Érbio	Erbium	Ytterby, Suécia	167.259(3)[nota 2]	 	6
+99	Es	Einsténio	Einsteinium	Albert Einstein	[252][nota 1]	 	7
+63	Eu	Európio	Europium	Europa	151.964(1)[nota 2]	 	6
+9	F	Flúor	Fluorum	Fluir, do latim fluere	18.9984032(5)	17	2
+26	Fe	Ferro	Ferrum	Ferro, do latim	55.845(2)	8	4
+114	Fl	Fleróvio	Flerovium	Georgy Flyorov	[289][nota 1]	14	7
+100	Fm	Férmio	Fermium	Enrico Fermi	[257][nota 1]	 	7
+87	Fr	Frâncio	Francium	França	[223][nota 1]	1	7
+31	Ga	Gálio	Galium	Gália, do latim Gallia	69.723(1)	13	4
+64	Gd	Gadolínio	Gadolinium	Johan Gadolin	157.25(3)[nota 2]	 	6
+32	Ge	Germânio	Germanium	Alemanha, do latim Germania	72.64(1)	14	4
+1	H	Hidrogênio	Hydrogenium	Gera água, do grego hydror+genos	1.00794(7)[nota 2][nota 3][nota 4]	1	1
+2	He	Hélio	Helium	Sol, do grego helios	4.002602(2)[nota 2][nota 3]	18	1
+72	Hf	Háfnio	Hafnium	Copenhagen, do latim Hafnia	178.49(2)	4	6
+80	Hg	Mercúrio	Hydrargyrum	Líquido prateado, do latim hydra+argyros	200.59(2)	12	6
+67	Ho	Hólmio	Holmium	Estocolmo, do latim Holmia	164.930 32(2)	 	6
+108	Hs	Hássio	Hassium	Hessen, Alemanha	[277][nota 1]	8	7
+53	I	Iodo	Iodum	Violeta, do grego ioeides	126.904 47(3)	17	5
+49	In	Índio	Indium	Azul indigo, violeta, do latim indicium	114.818(3)	13	5
+77	Ir	Irídio	Iridium	Íris, deusa do arco-íris, do latim iris	192.217(3)	9	6
+19	K	Potássio	Kalium	Kalium (hidróxido de potássio), do grego kalium, Cinza de pote, do neerlandês pottasche	39.0983(1)	1	4
+36	Kr	Criptônio ou Krípton	Krypton	Oculto, do grego kryptos	83.798(2)[nota 2][nota 4]	18	4
+57	La	Lantânio	Lanthanum	Do grego lanthanein	138.90547(7)[nota 2]	 	6
+3	Li	Lítio	Lithium	Rocha, do grego lithos	6.941(2)[nota 2][nota 3][nota 4][nota 5]	1	2
+103	Lr	Laurêncio	Lawrencium	Ernest Lawrence	[262][nota 1]	3	7
+71	Lu	Lutécio	Lutetium	Paris, do latim Lutetia	174.967(1)[nota 2]	3	6
+116	Lv	Livermório	Livermorium	Laboratório Nacional de Lawrence Livermore	[292]Erro de citação: Etiqueta <ref> inválida; nomes inválidos, por exemplo, demasiados nomes	16	7
+115	Mc	Moscóvio	Moscovium	Moscovo	[288][nota 1]	15	7
+101	Md	Mendelévio	Mendelevium	Dmitri Mendeleyev	[258][nota 1]	 	7
+12	Mg	Magnésio	Magnesium	Magnésia, Grécia	24.3050(6)	2	3
+25	Mn	Manganês	Manganum	Imã, do latim magnes	54.938045(5)	7	4
+42	Mo	Molibdénio	Molybdenum	Chumbo, do grego molybdos	95.94(2)[nota 2]	6	5
+109	Mt	Meitnério	Meitnerium	Lise Meitner	[268][nota 1]	9	7
+7	N	Nitrogênio	Nitrogenium	Gera salitre (nitrato), do grego nitro+gen	14.0067(2)[nota 2][nota 3]	15	2
+11	Na	Sódio	Natrium	Natron (Carbonato de sódio), do grego nítron
+"Sem sabor;", do italiano soda
+22.98976928(2)	1	3
+41	Nb	Nióbio	Niobium	Niobe, filha de Tântalo mitologia grega	92.906 38(2)	5	5
+60	Nd	Neodímio	Neodymium	Novo gêmeo, do grego neos+didymos	144.242(3)[nota 2]	 	6
+10	Ne	Neônio ou Néon	Neon	Novo, do grego neos	20.1797(6)[nota 2][nota 4]	18	2
+113	Nh	Nipônio	Nihonium	Nihon ou Nippon, Japão	[284][nota 1]	13	7
+28	Ni	Níquel	Niccolum	Níquelina, do alemão Kupfernickel	58.6934(2)	10	4
+102	No	Nobélio	Nobelium	Alfred Nobel	[259][nota 1]	 	7
+93	Np	Ne(p)túnio	Neptunium	Netuno, planeta e deus grego	[237][nota 1]	 	7
+8	O	Oxigênio	Oxygenium	Gera ácido, do grego oxys+genes	15.9994(3)[nota 2][nota 3]	16	2
+118	Og	Oganésson ou Oganéssio	Oganesson	Yuri Oganessian	[294][nota 1]	18	7
+76	Os	Ósmio	Osmium	Odor, do grego osme	190.23(3)[nota 2]	8	6
+15	P	Fósforo	Phosphorus	Portador da luz, do grego phosphoros	30.973762(2)	15	3
+91	Pa	Protactínio	Protactinium	Primeiro actínio, do grego protos+aktínos	231.03588(2)[nota 1]	 	7
+82	Pb	Chumbo	Plumbum	Do latim plumbum	207.2(1)[nota 2][nota 3]	14	6
+46	Pd	Paládio	Palladium	Palas, asteróide	106.42(1)[nota 2]	10	5
+61	Pm	Promécio	Promethium	Prometeu, mitologia grega	[145][nota 1]	 	6
+84	Po	Polônio	Polonium	Polônia	[210][nota 1]	16	6
+59	Pr	Praseodímio	Praseodymium	Verde, do grego prasios	140.90765(2)	 	6
+78	Pt	Platina	Platinum	Prata pequena, do espanhol plata+ina(diminutivo)	195.084(9)	10	6
+94	Pu	Plutônio	Plutonium	Plutão, planeta e deus grego	[244][nota 1]	 	7
+88	Ra	Rádio	Radium	Raio, do latim radius	[226][nota 1]	2	7
+37	Rb	Rubídio	Rubidium	Vermelho, do latim rubidus	85.4678(3)[nota 2]	1	5
+75	Re	Rênio	Rhenium	Rio Reno, Alemanha, do latim Rhenia	186.207(1)	7	6
+104	Rf	Rutherfórdio	Rhuterfordium	Ernest Rutherford	261[nota 1]	4	7
+111	Rg	Roentgénio	Roentgenium	Wilhelm Conrad Röntgen	[272][nota 1]	11	7
+45	Rh	Ródio	Rhodium	Cor-de-rosa, do grego rhodon	102.905 50(2)	9	5
+86	Rn	Rádon ou Radônio	Radon	emanação do Radium	[222][nota 1]	18	6
+44	Ru	Rutênio	Ruthenium	Rússia, do latim Ruthenia	101.07(2)[nota 2]	8	5
+16	S	Enxofre	Sulphur	Do latim sulphur	32.065(5)[nota 2][nota 3]	16	3
+51	Sb	Antimônio	Stibium	Ver Antimônio	121.760(1)[nota 2]	15	5
+21	Sc	Escândio	Scandium	Escandinávia	44.955912(6)	3	4
+34	Se	Selénio	Selenium	Lua, do grego selene	78.96(3)[nota 3]	16	4
+106	Sg	Seabórgio	Seaborgium	Glenn T. Seaborg	[266][nota 1]	6	7
+14	Si	Silício	Silicium	Sílex, do latim silex	28.0855(3)[nota 3]	14	3
+62	Sm	Samário	Samarium	Samarskite, mineral	150.36(2)[nota 2]	 	6
+50	Sn	Estanho	Stannum	Duro, do latim stannum	118.710(7)[nota 2]	14	5
+38	Sr	Estrôncio	Strontium	Strontian, Escócia	87.62(1)[nota 2][nota 3]	2	5
+73	Ta	Tântalo (tantálio)	Tantalum	Rei Tântalo, mitologia grega	180.94788(2)	5	6
+65	Tb	Térbio	Terbium	Ytterby, Sweden	158.92535(2)	 	6
+43	Tc	Tecnécio	Technetium	Artificial, do grego technetos	[98][nota 1]	7	5
+52	Te	Telúrio	Tellurium	Terra, planeta, do latim tellus	128.60(3)[nota 2]	16	5
+90	Th	Tório	Thorium	Thor, deus nórdico	232.03806(2)[nota 1][nota 2]	 	7
+22	Ti	Titânio	Titanium	Titãs, mitologia grega	47.867(1)	4	4
+81	Tl	Tálio	Thallium	Tiro, do grego thallos	204.3833(2)	13	6
+69	Tm	Túlio	Thulium	Thule	168.93421(2)	 	6
+117	Ts	Tenesso	Tennessine	Tennessee	[288][nota 1]	15	7
+92	U	Urânio	Uranium	Urano, planeta e deus grego	238.02891(3)[nota 1][nota 2][nota 4]	 	7
+23	V	Vanádio	Vanadium	Freya, deusa nórdica, do nórdico antigo Vanadis	50.9415(1)	5	4
+74	W	Tungstênio ou Volfrâmio	Wolframium	Lobo espuma, do alemão Wolf+ram[carece de fontes]	183.84(1)	6	6
+54	Xe	Xenônio ou Xénon	Xenon	Estranho, do grego xenos	131.293(6)[nota 2][nota 4]	18	5
+39	Y	Ítrio	Yttrium	Ytterby, Suécia	88.90585(2)	3	5
+70	Yb	Itérbio	Ytterbium	Ytterby, Suécia	173.04(3)[nota 2]	 	6
+30	Zn	Zinco	Zincum	Estanho, do alemão Zinn	65.409(4)	12	4
+40	Zr	Zircônio	Zirconium	Dourado, do persa zargun	91.224(2)[nota 2]	4	

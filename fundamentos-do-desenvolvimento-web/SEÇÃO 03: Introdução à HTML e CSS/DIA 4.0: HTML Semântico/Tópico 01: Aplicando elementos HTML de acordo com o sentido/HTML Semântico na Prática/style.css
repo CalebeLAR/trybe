@@ -1,0 +1,25 @@
+footer,header,nav,article,section {
+    margin: 5px;
+    border: 5px solid red;
+
+}
+
+section {
+    background-color: pink;
+    height: 250px;
+    width: 980px;
+}
+
+main {
+    /* height: 650px; */
+    /* border: 5px solid red; */
+}
+
+#header,#nav,#footer {
+    height: 100px;
+}
+
+#article {
+    height: 640px;
+    width: 1000px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      var valor1 = document.getElementById("paragraph").innerHTML;
+      valor1 = "vamos de uma noite virada kkkk"
+      document.getElementById("paragraph").innerHTML = "teste"
+      document.getElementById("page-title").innerHTML = "E vamo de virar a noite kkk"
+      //tem uma diferença entre atribuír o elemento.get a uma variável e apenas defini-lo!! na variavel ele não muda temporariamente a página, se apenas definido: ja sim!
+      console.log(valor1);
+    </script>
+  </body>
+</html>

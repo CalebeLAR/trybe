@@ -1,0 +1,15 @@
+GNU/Linux: A Origem
+2.1
+Conhecendo um Novo Mundo . . . . . . . . . . . . . . . . . . . . . . .
+2.1.1
+2
+2
+Distribuições GNU/Linux
+3
+. . . . . . . . . . . . . . . . . . . .5
+Distribuições Livres de Custos . . . . . . . . . . . . . . . . . .6
+Distribuições Corporativas . . . . . . . . . . . . . . . . . . . .6
+Distribuições Convencionais . . . . . . . . . . . . . . . . . . .7
+Distribuições Live . . . . . . . . . . . . . . . . . . . . . . . . .7
+Distribuições From Scratch . . . . . . . . . . . . . . . . . . . .7
+Distribuições Provenientes (Baseadas) . . . . . . . . . . . . .8
