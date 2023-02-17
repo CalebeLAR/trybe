@@ -1,0 +1,15 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "main": "boasVindas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ola": "node boasVindas.js",
+    "outraPasta": "node ../require-modulos-locais.js",
+    "doisScripts": "npm run ola && node ../require-modulos-locais.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
