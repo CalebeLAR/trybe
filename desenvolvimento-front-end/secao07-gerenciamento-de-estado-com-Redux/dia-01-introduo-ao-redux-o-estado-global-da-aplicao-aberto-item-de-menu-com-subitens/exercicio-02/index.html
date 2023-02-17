@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Trybe</title>
+    <script src="https://unpkg.com/redux@latest/dist/redux.js"></script>
+    <style>
+      body {
+        color: white;
+        background-color: #333;
+        font-family: sans-serif;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Minha Aplicação</h1>
+      <p>Status: Você está <span id="status">Offline</span></p>
+      <button id="toggle-theme">Light Mode</button>
+      <button id="toggle-status">Ficar Online</button>
+    </div>
+    <script>
+      // primeiro redux
+const THEME_INITIAL_STATE = {
+  theme: 'dark',
+};
+
+const themeReducer = (state = THEME_INITIAL_STATE, action) => {
+  switch (action.type) {
+    case ('TOGGLE_THEME'):
+      return {
+        theme: state.theme === 'white' ? '#333' : 'white',
+      }
+    default:  
+      return state;
+  }
+};
+
+const actionToggleTheme = { type: "TOGGLE_THEME" }; 
+const actionToggleStatus = { type: "TOGGLE_STATUS" }; 
+
+// segundo redux
+const STATUS_INITIAL_STATE = {
+  status: 'offline',
+};
+
+const statusReducer = (state = STATUS_INITIAL_STATE, action) => {
+  switch (action.type) {
+    case ('TOGGLE_STATUS'):
+      return {
+        status: state.status === 'offline' ? 'online' : 'offline',
+      }
+    default:
+      return state;
+  }
+};
+
+// store
+const rootReducer = Redux.combineReducers({themeReducer, statusReducer});
+const store = Redux.createStore(rootReducer);
+
+// trabalhando o DOM
+const themeButton = document.getElementById('toggle-theme');
+const statusButton = document.getElementById('toggle-status');
+const bodyStyle = document.querySelector('style');
+const span = document.querySelector('#status');
+
+themeButton.addEventListener('click', () => {
+  store.dispatch(actionToggleTheme);
+});
+
+statusButton.addEventListener('click', () => {
+  store.dispatch(actionToggleStatus);
+});
+
+store.subscribe(()=>{
+  // themeReducer
+  const { themeReducer: { theme } } = store.getState();
+  const newStyle = `body { 
+    color: ${theme === 'white' ? '#333' : 'white'}; 
+    background-color: ${theme}; 
+    font-family: sans-serif; 
+    text-align: center; 
+  }`;
+  bodyStyle.innerHTML = newStyle;
+
+
+  // statusReducer
+  const { statusReducer: { status } } = store.getState();
+  switch (status) {
+    case 'offline':
+      return span.innerText = 'Offline';
+
+    case 'online':
+      return span.innerText = 'Online';
+  }
+});
+    </script>
+  </body>
+</html>
