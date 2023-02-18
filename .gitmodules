@@ -1,0 +1,2 @@
+[submodule "secao04-introducao-ao-desenvolvimento-web-com-node-js/dia02-nodejs-apirest-com-express/soccer-team-manager"]
+	url = git@github.com:CalebeLAR/soccer-team-manager.git
