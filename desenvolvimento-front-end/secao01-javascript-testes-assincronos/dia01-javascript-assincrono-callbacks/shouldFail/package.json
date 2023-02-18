@@ -1,0 +1,15 @@
+{
+  "name": "shouldfail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "shouldFail.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.3"
+  }
+}
