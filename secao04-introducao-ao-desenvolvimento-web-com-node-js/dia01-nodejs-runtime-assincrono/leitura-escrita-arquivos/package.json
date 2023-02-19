@@ -1,0 +1,14 @@
+{
+  "name": "leitura-escrita-arquivos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "writefile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-readfile": "node readFile.js",
+    "dev-writefile": "node writeFile.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
