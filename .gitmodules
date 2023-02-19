@@ -1,3 +1,6 @@
 [submodule "secao04-introducao-ao-desenvolvimento-web-com-node-js/dia02-nodejs-apirest-com-express/soccer-team-manager"]
 	path = secao04-introducao-ao-desenvolvimento-web-com-node-js/dia02-nodejs-apirest-com-express/soccer-team-manager
 	url = git@github.com:CalebeLAR/soccer-team-manager.git
+
+[submodule "secao04-introducao-ao-desenvolvimento-web-com-node-js/dia02-nodejs-apirest-com-express/api-soccer"]
+	path = secao04-introducao-ao-desenvolvimento-web-com-node-js/dia02-nodejs-apirest-com-express/soccer-team-manager
