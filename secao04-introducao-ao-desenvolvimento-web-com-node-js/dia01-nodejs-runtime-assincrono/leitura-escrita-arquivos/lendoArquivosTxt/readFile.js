@@ -7,7 +7,7 @@ async function main () {
   } catch(script) {
     console.error(`saída to terminal:`);
     try {
-      const data = await fs.readFile('secao04-introducao-ao-desenvolvimento-web-com-node-js/dia01-nodejs-runtime-assincrono/leitura-escrita-arquivos/meuArquivo.txt', 'utf-8');
+      const data = await fs.readFile('secao04-introducao-ao-desenvolvimento-web-com-node-js/dia01-nodejs-runtime-assincrono/leitura-escrita-arquivos/lendoArquivosTxt/meuArquivo.txt', 'utf-8');
       console.log(data)
     } catch (saida){
       console.error('não foi possivel mostrar na saída to terminal');
