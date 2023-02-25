@@ -1,12 +1,12 @@
-[submodule "secao04-introducao-ao-desenvolvimento-web-com-node-js/dia02-nodejs-apirest-com-express/soccer-team-manager"]
-	path = secao04-introducao-ao-desenvolvimento-web-com-node-js/dia02-nodejs-apirest-com-express/soccer-team-manager
+[submodule "secao04-introducao-ao-desenvolvimento-web-com-node-js/soccer-team-manager"]
+	path = secao04-introducao-ao-desenvolvimento-web-com-node-js/soccer-team-manager
 	url = git@github.com:CalebeLAR/soccer-team-manager.git
 
-[submodule "secao04-introducao-ao-desenvolvimento-web-com-node-js/dia02-nodejs-apirest-com-express/dia02-nodejs-apirest-com-express/api-soccer"]
-	path = secao04-introducao-ao-desenvolvimento-web-com-node-js/dia02-nodejs-apirest-com-express/api-soccer
+[submodule "secao04-introducao-ao-desenvolvimento-web-com-node-js/api-soccer"]
+	path = secao04-introducao-ao-desenvolvimento-web-com-node-js/api-soccer
 	url = git@github.com:CalebeLAR/api-soccer.git
 
-[submodule "secao04-introducao-ao-desenvolvimento-web-com-node-js/dia02-nodejs-apirest-com-express/dia02-nodejs-apirest-com-express/hello-world"]
+[submodule "secao04-introducao-ao-desenvolvimento-web-com-node-js/dia02-nodejs-apirest-com-express/hello-world"]
 	path = secao04-introducao-ao-desenvolvimento-web-com-node-js/dia02-nodejs-apirest-com-express/hello-world
 	url = git@github.com:CalebeLAR/hello-world.git
 
