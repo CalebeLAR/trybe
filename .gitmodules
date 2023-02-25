@@ -9,3 +9,7 @@
 [submodule "secao04-introducao-ao-desenvolvimento-web-com-node-js/dia02-nodejs-apirest-com-express/dia02-nodejs-apirest-com-express/hello-world"]
 	path = secao04-introducao-ao-desenvolvimento-web-com-node-js/dia02-nodejs-apirest-com-express/hello-world
 	url = git@github.com:CalebeLAR/hello-world.git
+
+[submodule "secao04-introducao-ao-desenvolvimento-web-com-node-js/secao04-introducao-ao-desenvolvimento-web-com-node-js/my-node-project"]
+	path = secao04-introducao-ao-desenvolvimento-web-com-node-js/secao04-introducao-ao-desenvolvimento-web-com-node-js/my-node-project
+	url = git@github.com:CalebeLAR/my-node-project.git
