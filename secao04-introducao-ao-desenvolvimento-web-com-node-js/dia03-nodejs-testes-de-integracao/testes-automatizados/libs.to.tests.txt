@@ -1,0 +1,5 @@
+dependencias:
+npm install mocha@8.4.0 chai@4.3.4 --save-dev --save-exact
+
+script json config:
+"test": "mocha test/**/*.test.js --exit";
