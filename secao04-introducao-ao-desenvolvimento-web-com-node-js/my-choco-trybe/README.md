@@ -3,3 +3,4 @@
 
 + [x] testes com o mocha e chai
 + [x] usando o plugin chai-http simular uma request a nossa API
++ [x] aplicando a metodologia TDD
