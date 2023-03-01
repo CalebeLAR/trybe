@@ -1,6 +1,6 @@
 # my-choco-trybe
 [description]
 
-+ [x] testes com o mocha e chai
-+ [x] usando o plugin chai-http simular uma request a nossa API
++ [x] testes unitários com o mocha e chai
++ [x] testes de integração com chai-http
 + [x] aplicando a metodologia TDD
