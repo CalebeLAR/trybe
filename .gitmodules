@@ -9,3 +9,7 @@
 [submodule "secao04-introducao-ao-desenvolvimento-web-com-node-js/my-choco-trybe"]
 	path = secao04-introducao-ao-desenvolvimento-web-com-node-js/my-choco-trybe
 	url = git@github.com:CalebeLAR/cacau-trybe.git
+
+[submodule "secao04-introducao-ao-desenvolvimento-web-com-node-js/dia04-nodejs-express-e-middlewares/middlewares-de-terceiros"]
+	path = secao04-introducao-ao-desenvolvimento-web-com-node-js/dia04-nodejs-express-e-middlewares/middlewares-de-terceiros
+	url = git@github.com:CalebeLAR/middlewares-de-terceiros.git
