@@ -14,6 +14,7 @@
 	path = secao04-introducao-ao-desenvolvimento-web-com-node-js/dia04-nodejs-express-e-middlewares/middlewares-de-terceiros
 	url = git@github.com:CalebeLAR/middlewares-de-terceiros.git
 
-[submodule "secao04-introducao-ao-desenvolvimento-web-com-node-js/dia05-nodejs-express-e-mysql/trybecash-api"]
-	path = secao04-introducao-ao-desenvolvimento-web-com-node-js/dia05-nodejs-express-e-mysql/trybecash-api
-	url = git@github.com:CalebeLAR/trybecash-api.git
+[submodule "secao05-arquitetura-de-software-model-service-e-controller/dia03-arquitetura-de-software-camada-controller/msc-architecture-trybecar"]
+	path = secao05-arquitetura-de-software-model-service-e-controller/dia03-arquitetura-de-software-camada-controller/msc-architecture-trybecar
+	url = git@github.com:tryber/msc-architecture-trybecar.git
+
