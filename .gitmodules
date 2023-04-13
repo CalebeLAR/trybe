@@ -18,3 +18,10 @@
 	path = secao05-arquitetura-de-software-model-service-e-controller/dia03-arquitetura-de-software-camada-controller/msc-architecture-trybecar
 	url = git@github.com:tryber/msc-architecture-trybecar.git
 
+[submodule "app-with-sequelize"]
+	path = secao06-nodejs-orm-e-autenticacao/app-with-sequelize
+	url = git@github.com:CalebeLAR/app-with-sequelize.git
+
+[submodule "aulasAoVivo"]
+	path = secao06-nodejs-orm-e-autenticacao/aulasAoVivo
+	url = git@github.com:CalebeLAR/courses_api_with_sequelize.git
