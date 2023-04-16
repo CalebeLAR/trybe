@@ -25,3 +25,7 @@
 [submodule "aulasAoVivo"]
 	path = secao06-nodejs-orm-e-autenticacao/aulasAoVivo
 	url = git@github.com:CalebeLAR/courses_api_with_sequelize.git
+
+[submodule "employeesAPI"]
+	path = secao06-nodejs-orm-e-autenticacao/employeesAPI
+	url = git@github.com:CalebeLAR/employeesAPI.git
