@@ -22,6 +22,11 @@
 	path = secao06-nodejs-orm-e-autenticacao/app-with-sequelize
 	url = git@github.com:CalebeLAR/app-with-sequelize.git
 
+
+[submodule "booksAPI"]
+	path = secao06-nodejs-orm-e-autenticacao/booksAPI
+	url = git@github.com:CalebeLAR/booksAPI.git
+
 [submodule "aulasAoVivo"]
 	path = secao06-nodejs-orm-e-autenticacao/aulasAoVivo
 	url = git@github.com:CalebeLAR/courses_api_with_sequelize.git
