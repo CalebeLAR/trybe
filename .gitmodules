@@ -34,7 +34,7 @@
 [submodule "employeesAPI"]
 	path = secao06-nodejs-orm-e-autenticacao/employeesAPI
 	url = git@github.com:CalebeLAR/employeesAPI.git
-
+	
 [submodule "books-api-sequelize"]
 	path = secao06-nodejs-orm-e-autenticacao/books-api-sequelize
 	url = git@github.com:CalebeLAR/books-api-sequelize.git
