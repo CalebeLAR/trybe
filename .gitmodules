@@ -42,3 +42,19 @@
 [submodule "nodejs-jwt-base-project"]
 	path = secao06-nodejs-orm-e-autenticacao/nodejs-jwt-base-project
 	url = git@github.com:CalebeLAR/nodejs-jwt-base-project.git
+
+[submodule "books-api-sequelize"]
+	path = secao06-nodejs-orm-e-autenticacao/books-api-sequelize
+	url = git@github.com:CalebeLAR/books-api-sequelize.git
+
+[submodule "nodejs-jwt-base-project"]
+	path = secao06-nodejs-orm-e-autenticacao/nodejs-jwt-base-project
+	url = git@github.com:CalebeLAR/nodejs-jwt-base-project.git
+
+[submodule "aulaAoVivo"]
+path = secao08-introdução-a-typescript/aulaAoVivo
+url = git@github.com:CalebeLAR/aulaS08.git
+
+[submodule "exercises"]
+path = secao08-introdução-a-typescript/exercises
+url = git@github.com:CalebeLAR/exercises.git
