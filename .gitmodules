@@ -52,6 +52,6 @@
 	url = git@github.com:CalebeLAR/nodejs-jwt-base-project.git
 
 [submodule "conteudos"]
-path = secao08-introdução-a-typescript/conteudos
+path = secao08-introdução-a-typescript/aulaS08
 url = git@github.com:CalebeLAR/aulaS08.git
 
