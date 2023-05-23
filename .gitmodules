@@ -55,3 +55,7 @@
 path = secao08-introdução-a-typescript/aulaS08
 url = git@github.com:CalebeLAR/aulaS08.git
 
+[submodule "transactions-api"]
+path = secao08-introdução-a-typescript/dia03/transactions-api
+url = git@github.com:tryber/transactions-api.git
+
