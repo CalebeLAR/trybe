@@ -2,7 +2,7 @@
   --------------------------------------
   Classes, métodos e atributos abstratos
   -------------------------------------- 
- **/
+**/
 const pagina07 = () => {
   abstract class Employee {
     constructor(public name: string) { }
