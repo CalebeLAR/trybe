@@ -32,5 +32,5 @@ const birds = new Birds();
 birds.makeSound("fiu fiu fiu fiu fiu");
 
 // a sobre  escrita de metodos é feita sobrescrevendo a implementação da classe filha sobre a extendida pai.
-
 };
+pagina04();
