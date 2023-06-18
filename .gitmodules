@@ -59,3 +59,7 @@ url = git@github.com:CalebeLAR/aulaS08.git
 path = secao08-introdução-a-typescript/transactions-api
 url = git@github.com:tryber/transactions-api.git
 
+[submodule "trybeteca-api"]
+path = secao10-projeto-tfc-trybe-futebol-clube/dia01/trybeteca-api
+url = git@github.com:tryber/trybeteca-api.git
+
