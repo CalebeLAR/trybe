@@ -1,3 +1,3 @@
 # trybe
-
-repositório de anotações/estudo
+  * Introdução à Python
+    - Aprendendo Python
