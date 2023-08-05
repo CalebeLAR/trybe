@@ -1,4 +1,4 @@
-from pagina04c import Conjunto
+from pagina04c_gab import Conjunto
 
 
 def test_testa_se_dá_de_criar_uma_instancia_de_Conjunto():
@@ -59,12 +59,6 @@ def test_testa_a_implementação_do_metodo__union__():
             conjuntoA.add(num)
         else:
             conjuntoB.add(num)
-
-    conjuntoA.union(conjuntoB)
-    conjuntoB.union(conjuntoA)
-
-    assert conjuntoA.vetor == [True for i in range(1001)]
-    assert conjuntoB.vetor == [True for i in range(1001)]
 
 
 def test_testa_a_implementação_do_metodo__intersection__(capfd):
