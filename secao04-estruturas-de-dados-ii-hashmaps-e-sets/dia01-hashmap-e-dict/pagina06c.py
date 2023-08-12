@@ -27,4 +27,3 @@ for num in lista:
         mais_se_repete = num
 
 print(mais_se_repete)
-
