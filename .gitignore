@@ -1,7 +1,4 @@
-format.js
+**.js
 __pycache__/
-.pytest_cache/
-.env
-.venv
-.vscode/
-.coverage
+.**/
+
