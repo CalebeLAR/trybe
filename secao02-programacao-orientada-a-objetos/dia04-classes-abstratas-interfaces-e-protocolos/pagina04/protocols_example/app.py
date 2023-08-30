@@ -1,6 +1,6 @@
-from .databases.mysql import MySQLDatabase  # Observe os imports relativos
-from .databases.postgresql import PostgresDatabase
-from .interfaces import Connection, Database
+from databases.mysql import MySQLDatabase  # Observe os imports relativos
+from databases.postgresql import PostgresDatabase
+from interfaces import Connection, Database
 
 
 # Função que recebe um Database qualquer, que faz uso do protocolo como tipo
