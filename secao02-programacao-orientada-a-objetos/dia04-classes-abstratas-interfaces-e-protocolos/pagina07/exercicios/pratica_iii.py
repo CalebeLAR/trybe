@@ -11,15 +11,6 @@ from typing import Protocol, Union, TypedDict
 # Defina uma classe de protocolo chamada MessagingProtocol que defina os
 # seguintes métodos:
 
-
-class MessagingProtocol(Protocol):
-    def send_message(to: str, message: str) -> bool:
-        pass
-
-    def receive_message() -> Union[str, None]:
-        pass
-
-
 #     send_message(to: str, message: str) -> bool: envia uma mensagem para o
 #     destinatário especificado. Retorna True se a mensagem for enviada com
 #     sucesso e False caso contrário.
@@ -34,20 +25,6 @@ class MessagingProtocol(Protocol):
 #     Você pode usar a classe queue.Queue para implementar uma fila de
 #     mensagens simples.
 
-
-class Message(TypedDict):
-    to: str
-    message: str
-
-
-class InMemoryMessaging(MessagingProtocol):
-    def __init__(self) -> None:
-        self.messages = list[Message]
-    
-
-    
-
-
 #     Implemente uma classe chamada FileMessaging que implemente o protocolo
 #     MessagingProtocol. Essa classe deve usar uma abordagem baseada em arquivo
 #     para armazenar mensagens. Você pode usar a função interna open() para
@@ -57,3 +34,21 @@ class InMemoryMessaging(MessagingProtocol):
 #     cada classe e usando os métodos send_message() e receive_message().
 
 #     Lembre-se de usar o mypy para verificar se a tipagem está correta.
+
+
+class MessagingProtocol(Protocol):
+    def send_message(to: str, message: str) -> bool:
+        pass
+
+    def receive_message() -> Union[str, None]:
+        pass
+
+
+class Message(TypedDict):
+    to: str
+    message: str
+
+
+class InMemoryMessaging(MessagingProtocol):
+    def __init__(self) -> None:
+        self.messages = list[Message]
