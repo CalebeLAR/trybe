@@ -1,3 +1,5 @@
+from abc import ABC, abstractmethod
+
 # Exercício 2
 
 # Agora, você deve criar um sistema para gerenciamento de serviços de entrega.
@@ -7,6 +9,7 @@
 # um objeto da classe Cliente e um objeto da classe Endereco. Além disso, o
 # método precisa imprimir uma mensagem informando que o serviço foi entregue
 # com sucesso.
+
 
 # ➡️ Siga os passos a seguir para a construção.
 
@@ -29,20 +32,74 @@
 #     Lembre-se de usar o mypy para verificar se a tipagem está correta.
 
 
+class Cliente:
+    def __init__(self, nome: str, telefone: str) -> None:
+        self.nome = nome
+        self.telefone = telefone
 
 
+class Endereco:
+    def __init__(
+        self, rua: str, numero: str, bairro: str, cidade: str, estado: str
+    ) -> None:
+        self.rua = rua
+        self.numero = numero
+        self.bairro = bairro
+        self.cidade = cidade
+        self.estado = estado
 
-# Exercício 3 – Protocolos
 
-# Implemente uma classe de protocolo para um sistema de mensagens que defina os métodos necessários para enviar e receber mensagens. Em seguida, faça classes para dois sistemas de mensagens diferentes que implementam o protocolo.
-# Passos
+class AbstractEntregavel(ABC):
+    @abstractmethod
+    def entregar(self, cliente: Cliente, Endereco: Endereco) -> None:
+        pass
 
-# Defina uma classe de protocolo chamada MessagingProtocol que defina os seguintes métodos:
 
-#     send_message(to: str, message: str) -> bool: envia uma mensagem para o destinatário especificado. Retorna True se a mensagem for enviada com sucesso e False caso contrário.
-#     receive_message() -> Union[str, None]: recebe uma mensagem, se houver disponível. Retorna a mensagem como uma string ou None se nenhuma mensagem estiver disponível.
-#     Implemente uma classe chamada InMemoryMessaging que implemente o protocolo MessagingProtocol. Nessa classe deve ser usada uma estrutura de dados na memória (por exemplo, um dicionário) para armazenar mensagens. Você pode usar a classe queue.Queue para implementar uma fila de mensagens simples.
-#     Implemente uma classe chamada FileMessaging que implemente o protocolo MessagingProtocol. Essa classe deve usar uma abordagem baseada em arquivo para armazenar mensagens. Você pode usar a função interna open() para criar e manipular arquivos.
-#     Teste as classes InMemoryMessaging e FileMessaging criando instâncias de cada classe e usando os métodos send_message() e receive_message().
+class Correios(AbstractEntregavel):
+    def entregar(self, cliente: Cliente, endereco: Endereco) -> None:
+        print(
+            "entrega realizada pelos Correios\n"
+            "--------------------\n"
+            f"Destinatário:    \n"
+            f"nome: {cliente.nome}\n"
+            "--------------------\n"
+            f"telefone: {cliente.telefone}\n"
+            f"rua: {endereco.rua}\n"
+            f"numero: {endereco.numero}\n"
+            f"bairro: {endereco.bairro}\n"
+            f"cidade: {endereco.cidade}\n"
+            f"estado: {endereco.estado}\n\n\n"
+        )
 
-#     Lembre-se de usar o mypy para verificar se a tipagem está correta.
+
+class Transportadora(AbstractEntregavel):
+    def entregar(self, cliente: Cliente, endereco: Endereco) -> None:
+        print(
+            "entrega realizada pelos Correios\n"
+            "--------------------\n"
+            f"Destinatário:    \n"
+            f"nome {cliente.nome}\n"
+            "--------------------\n"
+            f"telefone: {cliente.telefone}\n"
+            f"rua: {endereco.rua}\n"
+            f"numero: {endereco.numero}\n"
+            f"bairro: {endereco.bairro}\n"
+            f"cidade: {endereco.cidade}\n"
+            f"estado: {endereco.estado}\n\n\n"
+        )
+
+
+class Main:
+    def main(self) -> None:
+        cliente = Cliente("carlos", "99 9999-9999")
+        endereco = Endereco("tal", "tal", "tal", "tal", "tal")
+
+        correio = Correios()
+        transportadora = Transportadora()
+
+        correio.entregar(cliente, endereco)
+        transportadora.entregar(cliente, endereco)
+
+
+if __name__ == "__main__":
+    Main().main()
