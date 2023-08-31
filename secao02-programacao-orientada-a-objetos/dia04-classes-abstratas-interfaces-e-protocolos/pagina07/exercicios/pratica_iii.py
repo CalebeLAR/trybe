@@ -1,4 +1,10 @@
-from typing import Protocol, Union, TypedDict
+from typing import Protocol, Union
+import json
+
+
+PATH = """dia04-classes-abstratas-interfaces-e-protocolos/pagina07/exercicios/\
+pratica_iii_messages.json"""
+
 
 # Exercício 3 – Protocolos
 
@@ -44,11 +50,64 @@ class MessagingProtocol(Protocol):
         pass
 
 
-class Message(TypedDict):
-    to: str
-    message: str
-
-
 class InMemoryMessaging(MessagingProtocol):
     def __init__(self) -> None:
-        self.messages = list[Message]
+        self.memory = []
+
+    def send_message(self, to: str, message: str) -> bool:
+        if not isinstance(message, str):
+            return False
+
+        if not self.memory:
+            self.memory = [{"to": to, "message": message}]
+            return True
+        else:
+            self.memory.append({"to": to, "message": message})
+            return True
+
+    def receive_message(self) -> Union[str, None]:
+        if self.memory:
+            return self.memory[-1]
+
+        else:
+            print("não ná mensagens")
+            return None
+
+
+# inmemory = InMemoryMessaging()
+# inmemory.send_message('funalo', 'olá funlano')
+# inmemory.send_message('outro fulano', 'olá outro funlano')
+# inmemory.send_message('outro fulano', 'olá outro funlano')
+# inmemory.send_message('outro fulano', 'olá outro funlano')
+# print(inmemory.memory)
+# print(inmemory.receive_message())
+
+
+class FileMessaging(MessagingProtocol):
+    def send_message(self, to: str, message: str) -> bool:
+        with open(PATH, "r+") as file:
+            messages: list = json.load(file)
+
+            if not isinstance(messages, list):
+                return False
+
+            messages.append({"to": to, "message": message})
+            new = json.dumps(messages)
+            file.seek(0)  # Posicionar o cursor no início do arquivo
+            file.write(new)  # Escrever os dados atualizados
+            file.truncate()  # Truncar qualquer conteúdo restante
+
+    def receive_message(self) -> Union[str, None]:
+        with open(PATH, "r") as file:
+            messages: list = json.load(file)
+
+            if not messages:
+                print("não ná mensagens")
+                return None
+            else:
+                return messages[-1]
+
+
+fileMessaging = FileMessaging()
+fileMessaging.send_message("maria", "ola maria")
+print(fileMessaging.receive_message())
