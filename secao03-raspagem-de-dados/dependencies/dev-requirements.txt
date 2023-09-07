@@ -1,0 +1,4 @@
+mypy==1.3.0
+requests==2.31.0
+parsel==1.8.1
+scrapy==2.10.1
