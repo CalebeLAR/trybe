@@ -11,4 +11,4 @@ Dia 04: Classes Abstratas Interfaces e Protocolos
 
 ### seção03 Raspagem de Dados
 Dia 01: Raspagem de dados
-
+Dia 02: Outras ferramentas de raspagem de dados
