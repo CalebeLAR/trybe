@@ -35,6 +35,3 @@ class Pagina06:
         pass
 
     pass
-
-
-print(len("SPACIOUS RAMBLA CATALUÑA"))
