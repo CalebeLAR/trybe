@@ -1,5 +1,5 @@
 # app.py
-from flask import Flask
+from flask import Flask, jsonify
 
 app = Flask(__name__)  # Cria a instância da aplicação
 
@@ -7,6 +7,11 @@ app = Flask(__name__)  # Cria a instância da aplicação
 @app.route("/")  # Cria uma rota, para a raiz do projeto. (GET por padrão)
 def hello_world():  # Método a ser executado ao navegar
     return "Hello World!"
+
+
+@app.route("/api/")
+def api_hello_world():
+    return jsonify({"mensagem": "Hello World!"})
 
 
 if __name__ == "__main__":
