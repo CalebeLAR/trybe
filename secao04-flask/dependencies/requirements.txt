@@ -1,0 +1,5 @@
+#vscode
+flake8==6.1.0
+
+#dia 01:
+Flask==2.3.3
