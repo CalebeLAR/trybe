@@ -14,12 +14,14 @@ def _get_joke(id: str):
     return JokeModel.find_one({"_id": ObjectId(id)})
 
 
+# exercício02
 @jokes_controller.route("/", methods=["GET"])
 def joke_index():
     jokes_list = _get_all_jokes()
     return jsonify(jokes_list)
 
 
+# exercício02
 @jokes_controller.route("/random", methods=["GET"])
 def joke_random():
     joke = JokeModel.get_random()
@@ -29,6 +31,7 @@ def joke_random():
     return jsonify(joke.to_dict()), 200
 
 
+# exercício01
 @jokes_controller.route("/", methods=["POST"])
 def joke_post():
     new_joke = JokeModel(request.json)
@@ -36,15 +39,18 @@ def joke_post():
     return jsonify(new_joke.to_dict()), 201
 
 
+# exercício03
 @jokes_controller.route("/<id>", methods=["PUT"])
 def joke_update(id: str):
     joke = _get_joke(id)
     if joke is None:
         return jsonify({"error": "Joke not found"}), 404
     joke.update(request.json)
+    print(request.json)
     return jsonify(joke.to_dict()), 200
 
 
+# exercício02
 @jokes_controller.route("/<id>", methods=["GET"])
 def joke_show(id: str):
     joke = _get_joke(id)
@@ -53,6 +59,7 @@ def joke_show(id: str):
     return jsonify(joke.to_dict()), 200
 
 
+# exercício04
 @jokes_controller.route("/<id>", methods=["DELETE"])
 def joke_delete(id: str):
     joke = _get_joke(id)
