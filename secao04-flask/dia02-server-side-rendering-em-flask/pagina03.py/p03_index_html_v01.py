@@ -1,3 +1,4 @@
+# NOQE E501
 """
 <!DOCTYPE html>
 <html>
