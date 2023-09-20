@@ -1,5 +1,4 @@
 # music_model
-from pickletools import read_uint1
 from .db import db
 import random
 from .abstract_model import AbstractModel
