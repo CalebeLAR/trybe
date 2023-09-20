@@ -16,6 +16,7 @@ class Pagina09:
         pass
 
     def Exercício02():
+        # Crie uma rota GET para retornar uma música aleatória.
         pass
 
     def Exercício03():
