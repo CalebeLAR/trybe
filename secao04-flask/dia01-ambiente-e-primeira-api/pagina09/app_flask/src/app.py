@@ -1,5 +1,6 @@
 from flask import Flask
 from controllers.jokes_controller import jokes_controller
+from controllers.musics_controller import music_controller
 from os import environ
 from waitress import serve
 
