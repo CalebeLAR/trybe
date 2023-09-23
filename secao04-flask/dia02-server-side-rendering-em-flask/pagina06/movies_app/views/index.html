@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies.flask</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='movies.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Lista de Filmes</h1>
+    </header>
+    <section>
+        <div>
+            <h2>lista de filmes aqui</h2>
+            <ul>
+                {% for movie in data %}
+                    <li><p>filme: {{ movie }}</p></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,10 +1,9 @@
 from flask import Flask
-from controllers.home_controller import home_controller
+from home_controller import home_controller
 
 app = Flask(__name__)
-
-app.static_folder = "/view/static"
-app.template_folder = "/view/templates"
+app.static_folder = "/home/ca3ele/Desktop/trybe/secao04-flask/dia02-server-side-rendering-em-flask/pagina06/movies_app/views/"  # noqa: E501
+app.template_folder = "/home/ca3ele/Desktop/trybe/secao04-flask/dia02-server-side-rendering-em-flask/pagina06/movies_app/views"  # noqa: E501
 
 app.register_blueprint(home_controller, url_prefix="/")
 
