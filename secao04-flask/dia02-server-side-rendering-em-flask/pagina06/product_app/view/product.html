@@ -12,16 +12,18 @@
         <ul>
             {% for product in products %}
             <li>
-                <div class="product_li">
-                    <p>nome: {{product.name}} ----- price: {{product.price}}</p>
-                    <button type="button" >remove procuct</button>
-                </div>
+                <form method="delete">
+                    <div class="product_li">
+                        <p>nome: {{product.name}} ----- price: {{product.price}}</p>
+                        <button type="submit" id={{product.name}}>remove procuct</button>
+                    </div>
+                </form>
             </li>
             {% endfor %}
         </ul>
     </div>
     <div>
-        <form>
+        <form method="post">
             <h3>adicione um novo produto!</h3>
             <label for="product_name">
                 nome do produto:
