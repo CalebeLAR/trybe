@@ -14,3 +14,4 @@ Dia 01: Raspagem de dados
 Dia 02: Outras ferramentas de raspagem de dados  
 Dia 03: MongoDB e Crawlers + Aula ao vivo  
 Dia 04: Aprofundando em Templates com Flask 
+Dia 05: API e Testes em Flask + Aula
