@@ -1,0 +1,9 @@
+p {
+    margin: 0;
+    display: inline;
+}
+
+button {
+    border-radius: 1cm;
+    display: inline;
+}
