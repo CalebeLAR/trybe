@@ -14,17 +14,30 @@ h1 {
     text-align: center;
 }
 
-/* Define o estilo para a lista de tarefas */
-ul {
-    list-style-type: none;
-    padding: 0;
+/* Define o estilo para a tabela de tarefas */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
 }
 
-li {
-    background-color: #fff;
+table, th, td {
     border: 1px solid #ddd;
-    margin: 5px 0;
+}
+
+th, td {
     padding: 10px;
+    text-align: left;
+}
+
+/* Define o estilo para os links "completed" */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Define o estilo para o formulário */
@@ -33,6 +46,7 @@ form {
     border: 1px solid #ddd;
     padding: 10px;
     margin-top: 20px;
+    text-align: center;
 }
 
 label {
@@ -52,8 +66,4 @@ button {
     padding: 5px 10px;
     border: none;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #555;
 }
