@@ -1,9 +1,14 @@
-p {
-    margin: 0;
-    display: inline;
+table {
+    border-collapse: collapse;
+    width: 100%;
 }
 
-button {
-    border-radius: 1cm;
-    display: inline;
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
 }
