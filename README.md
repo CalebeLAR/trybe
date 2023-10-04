@@ -24,3 +24,6 @@ Dia 03: Aula ao vivo
 Dia 04: Aprofundando em Templates com Flask  
 Dia 05: API e Testes em Flask + Aula  
 Dia 06: Exercícios + Projeto - Traduzo  
+
+### seção05 djangoI
+Dia 01: Ambiente de banco de dados e ORM
