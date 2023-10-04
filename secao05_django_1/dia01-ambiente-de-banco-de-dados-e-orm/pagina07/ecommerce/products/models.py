@@ -11,3 +11,9 @@ class Product(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     image = models.ImageField(upload_to="media/products", null=True, blank=True)  # noqa
+
+
+class Customer(models.Model):
+    name = models.CharField(max_length=50)
+    address = models.CharField(max_length=200)
+    phone = models.CharField(max_length=20)
