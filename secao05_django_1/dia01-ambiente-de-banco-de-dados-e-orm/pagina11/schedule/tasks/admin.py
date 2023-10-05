@@ -1,3 +1,5 @@
+from tasks.models import Task
 from django.contrib import admin
 
-# Register your models here.
+admin.site.site_header = "Schedule: TASKS"
+admin.site.register(Task)
