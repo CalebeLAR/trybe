@@ -4,3 +4,5 @@ mysqlclient==2.2.0 # biblioteca para se comunicar com o MySQL
 
 # Dia 02
 Pillow==10.0.1 # biblioteca para trabalhar com imagens
+whitenoise==6.5.0 # Serve os arquivos estáticos a partir de um diretório
+django-static-autocollect==0.1 # Coleta os arquivos estáticos e os coloca em um diretório
