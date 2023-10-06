@@ -8,4 +8,7 @@ class Recipe(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now_add=True)
     image = models.CharField(max_length=400)
+
+    def __str__(self) -> str:
+        return f"{self.name}"
     pass
