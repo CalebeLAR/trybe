@@ -20,6 +20,7 @@
             <li><p>{{instruction}}</p></li>
         {% endfor %}
     </ul>
-
+    <a href="{{recipe_id}}/delete">delete this recipe</a>
+    <br>
     <a href="{% url 'index' %}">back to home</a>
 {% endblock %}
