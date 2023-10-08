@@ -28,3 +28,4 @@ Dia 06: Exercícios + Projeto - Traduzo
 ### seção05 djangoI
 Dia 01: Ambiente de banco de dados e ORM
 Dia 02: Templates do Django
+Dia 03: Formulários e Relacionamento de modelos
