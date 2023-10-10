@@ -29,3 +29,5 @@ Dia 06: Exercícios + Projeto - Traduzo
 Dia 01: Ambiente de banco de dados e ORM
 Dia 02: Templates do Django
 Dia 03: Formulários e Relacionamento de modelos
+Dia 04: Django Rest Framework + Aula
+Dia 05: Projeto - SpotNews
