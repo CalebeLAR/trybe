@@ -31,3 +31,6 @@ Dia 02: Templates do Django
 Dia 03: Formulários e Relacionamento de modelos
 Dia 04: Django Rest Framework + Aula
 Dia 05: Projeto - SpotNews
+
+### seção06 djangoII
+Dia 0 01: Autenticação
