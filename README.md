@@ -33,4 +33,5 @@ Dia 04: Django Rest Framework + Aula
 Dia 05: Projeto - SpotNews
 
 ### seção06 djangoII
-Dia 0 01: Autenticação
+Dia 01: Autenticação
+Dia 02: Testando aplicações Django
