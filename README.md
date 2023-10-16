@@ -1,8 +1,8 @@
 ### seção01 Debug Com o Python
 Dia 01: Estratégias de debug com Python  
 Dia 02: Automatizando o bug hunting com Pytest  
-Dia 03: Avançando nos testes em Python
-Dia 04: Projeto - ProFiler
+Dia 03: Avançando nos testes em Python  
+Dia 04: Projeto - ProFiler  
 
 ### seção02 Programação Orientada a Objetos
 Dia 01: POO em Python  
@@ -15,7 +15,7 @@ Dia 05: Projeto - Relatório de Estoques
 Dia 01: Raspagem de dados  
 Dia 02: Outras ferramentas de raspagem de dados  
 Dia 03: MongoDB e Crawlers + Aula ao vivo  
-Dia 04: Projeto - Tech News
+Dia 04: Projeto - Tech News  
 
 ### seção04 Flask
 Dia 01: Ambiente e primeira API  
