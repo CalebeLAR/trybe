@@ -35,3 +35,5 @@ Dia 05: Projeto - SpotNews
 ### seção06 django II
 Dia 01: Autenticação  
 Dia 02: Testando aplicações Django  
+Dia 03: Deployment no Railway + Aula ao vivo  
+Dia 04: Projeto - Super Portfólio  
