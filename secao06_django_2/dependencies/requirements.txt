@@ -1,7 +1,14 @@
-#dia01 Autenticação
-Django==4.2.6
-mysqlclient==2.2.0
-djangorestframework==3.14.0
-django-filter==23.3
-markdown==3.5
-djangorestframework-simplejwt-5.3.0
+# Dia01 Autenticação  
+Django==4.2.6  
+mysqlclient==2.2.0  
+djangorestframework==3.14.0  
+django-filter==23.3  
+markdown==3.5  
+djangorestframework-simplejwt==5.3.0  
+
+# Dia02 Testando com o Pytestes  
+pytest-django==4.5.2  
+
+# Dia03 Deployment no Railway + Aula ao vivo  
+gunicorn==21.2.0  
+
