@@ -1,0 +1,19 @@
+<!-- events/templates/home.html -->
+{% extends 'base.html' %}
+
+{% block title %}
+  Primeiro Template
+{% endblock %}
+
+{% block content %}
+  <h1> Meu primeiro template usando Django! </h1>
+  <h3> usando DTL: (Django Template Language) </h3>
+  <h2> {{ company }} </h2>
+
+  {% for event in events %}
+    <p> <a href="{% url 'details-page' event.id %}"> {{ event }} </a> </p>
+  {% empty %}
+    <p> Não existem eventos cadastrados </p>
+  {% endfor %}
+
+{% endblock %}

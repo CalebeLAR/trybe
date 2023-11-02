@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Detalhes de {{ recipe_name }}
+{% endblock %}
+
+{% block content%}
+    <img src="{{image_url}}" alt="{{recipe_name}}" width="25%">
+    <h2>ingredients</h2>
+    <ul>
+        {% for ingredient in ingredients %}
+            <li><p>{{ingredient}}</p></li>
+        {% endfor %}
+    </ul>
+    <br>
+
+    <h2>instruções</h2>
+    <ul>
+        {% for instruction in instructions %}
+            <li><p>{{instruction}}</p></li>
+        {% endfor %}
+    </ul>
+    <a href="{{recipe_id}}/delete">delete this recipe</a>
+    <br>
+    <a href="{% url 'index' %}">back to home</a>
+{% endblock %}

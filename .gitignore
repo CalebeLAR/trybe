@@ -1,0 +1,7 @@
+**.js
+__pycache__/
+.coverage
+.**/
+sis/
+tempCodeRunnerFile**
+**/python-conteudo*/

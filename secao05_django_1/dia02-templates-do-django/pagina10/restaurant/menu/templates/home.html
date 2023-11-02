@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Receitas Deliciosas
+{% endblock %}
+
+{% block nav%}
+    <nav>
+        <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/receitas">Receitas</a></li>
+            <li><a href="/sobre">Sobre Nós</a></li>
+            <li><a href="/contato">Contato</a></li>
+        </ul>
+    </nav>
+{% endblock %}
+
+
+{% block content%}
+    <section class="mais-receitas">
+        <h2>Mais Receitas</h2>
+        <ul>
+            {% for recipe in recipes %}
+                <li><a href="/recipe/{{recipe.id}}">{{recipe.name}}</a></li>
+            {% endfor %}
+        </ul>
+    </section>
+{% endblock %}

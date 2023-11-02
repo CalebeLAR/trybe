@@ -1,0 +1,17 @@
+header {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(99, 0, 0);
+    height: 10%;
+    width: 100%;
+}
+
+section {
+    background-color: rgb(150, 51, 51);
+}
+
+li {
+    background-color: rgb(181, 56, 56);
+}
