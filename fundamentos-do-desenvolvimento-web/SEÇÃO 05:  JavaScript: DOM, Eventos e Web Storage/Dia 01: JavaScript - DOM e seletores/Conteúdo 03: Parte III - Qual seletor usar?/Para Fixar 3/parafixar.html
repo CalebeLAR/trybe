@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <h3 id="page-title-dois">Título dois</h3>
+      <p class="p_class">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p class="p_class">Segundo parágrafo!</p>
+    </header>
+
+
+    <script>
+      console.log("elementos que trazem um HTML colection:")
+      console.log("getElementesClassName: ", document.getElementsByClassName("p_class"));
+      console.log("getElementesTagName: ", document.getElementsByTagName("p"));
+      console.log("elementos que trazem um valores:")
+      console.log("getElementesById: ", document.getElementById("subtitle"));
+      console.log("elementos que trazem uma NODE list:")
+      console.log("querySelector: ",document.querySelector("#page-title"));
+      console.log("querySelectorAll: ", document.querySelectorAll("h3"))
+      console.log("querySelectorAll: ", document.querySelectorAll(".p_class"))
+      console.log("querySelectorAll: ", document.querySelectorAll("#page-title"))
+    </script>
+  </body>
+</html>

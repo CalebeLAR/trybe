@@ -1,0 +1,50 @@
+div:hover{
+    border: 1px solid black;
+}
+
+.CorPrimária:hover {
+    /* border: 1px solid black; */
+    background-color: red;
+}
+.CorSecundária:hover {
+    /* border: 1px solid black; */
+    background-color: green;
+}
+.CorComplementar:hover {
+    /* border: 1px solid black; */
+    background-color: yellowgreen;
+    height: 100px;
+}
+.CorEscura:hover{
+    /* border: 1px solid black; */
+    background-color: rgb(56, 1, 1);
+}
+.CorClara:hover{
+    /* border: 1px solid black; */
+    background-color: aqua;
+}
+
+#p1 {
+    color: greenyellow;
+    font-family: sans-serif;
+}
+#p2 {
+    color: red;
+    font-family: monospace;
+}
+#p3 {
+    color: blue;
+    font-size: large;
+}
+#p4{
+    color: aqua;
+}
+#p5{
+    color: brown;
+    font-size: smaller;
+}
+
+h3{
+    font-style: italic;
+    font-size: 50px;
+}

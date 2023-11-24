@@ -1,0 +1,47 @@
+<!-- arquivo index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <div id="start"></div>
+    nó
+    <p>elemento</p>
+  </main>
+
+  <main id="paiDoPai">paiDoPai
+    <section id="pai">pai
+      <section id="primeiroFilho">primeiroFilho</section>
+      <section id="elementoOndeVoceEsta">elementoOndeVoceEsta
+        <section id="primeiroFilhoDoFilho">primeiroFilhoDoFilho</section>
+        <section id="segundoEUltimoFilhoDoFilho">segundoEUltimoFilhoDoFilho</section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho">terceiroFilho</section>
+      <section id="quartoEUltimoFilho">quartoEUltimoFilho</section>
+    </section>
+  </main>
+
+  <script>
+    for (let index = pai.childNodes.length - 1; index >= 0; index -= 1) {
+      const currentChildren = pai.childNodes[index];
+      if (currentChildren.id !== 'elementoOndeVoceEsta') {
+        currentChildren.remove();
+      }
+    }
+
+    const segundoEUltimoFilhoDoFilho = document.getElementById('segundoEUltimoFilhoDoFilho');
+    segundoEUltimoFilhoDoFilho.remove();
+
+  </script>
+
+</body>
+</html>
